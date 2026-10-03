@@ -57,9 +57,9 @@ svg.i { width: 1em; height: 1em; fill: currentColor; vertical-align: -.125em; fl
 .topbar a { color: inherit; }
 .topbar a:hover { color: var(--gold-lt); }
 .topbar ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 22px; }
-.topbar li { display: flex; align-items: center; gap: 7px; }
+.topbar li { white-space: nowrap; display: flex; align-items: center; gap: 7px; }
 .topbar .i { color: var(--gold); }
-.site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.97); border-bottom: 1px solid var(--line); backdrop-filter: blur(6px); }
+.site-header { position: sticky; top: 0; z-index: 50; background: #fff; border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 78px; }
 .logo { display: flex; flex-direction: column; line-height: 1; color: var(--ink); }
 .logo:hover { color: var(--ink); }
