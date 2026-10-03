@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dlux-hair-salon.netlify.app/sitemap.xml
